@@ -1,0 +1,6 @@
+- hosts: localhost
+  become: true
+  tasks:
+    - name: Pop Up Containers 
+      community.docker.docker_compose:
+        project_src: ./forchallenge/
