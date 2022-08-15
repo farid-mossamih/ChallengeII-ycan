@@ -10,7 +10,7 @@
 
   Compose is a tool for defining and running multi-container Docker application. Compose use yml file to configure application's services.
 
-## 
+## The How!
 
   1- We simply define our containers in a file called dokcer-compose.yml, we use port `80:80` for nginx container and `9000` for php container. we mount the directory `~/forchallenge/conf.d/` on the host as `/etc/nginx/conf.d` inside the container. And we do the same for `/var/www/html` where the static application is hosted.
   
